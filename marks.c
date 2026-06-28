@@ -14,7 +14,7 @@ int main ()
             printf("Grade: A+");
             break;
         case 8:
-            printf("Grade: An");
+            printf("Grade: A");
             break;
         case 7:
             printf("Grade: B+");
@@ -26,8 +26,10 @@ int main ()
             printf("Grade: C+");
             break;
         case 4:
-            printf("Grade: fail");
+            printf("Grade: c");
+            default:
+            printf("Grade: D fail");
     }
-    
-    return 0;
+      return 0;
+
 }
