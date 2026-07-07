@@ -15,7 +15,7 @@ int main()
 
     scanf("%d",&choice);
     switch(choice)
-    
+    {
         case 1:
             printf("Result = %d\n",  a & b);
             break;
@@ -36,7 +36,7 @@ int main()
         case 6:
         printf("enter no of positions to shift:");
         scanf("%d",&b);
-            printf("Result  %d\n" a >> b);
+            printf("Result  %d\n", a >> b);
             break;
         default:
             printf("Invalid choice\n");     
